@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hero{
+   background: url('./image/image1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.icon{
+    display: none;
+    align-items: left;
+    justify-content: left;
+
+  
+}
+
+@media only screen  and (max-width: 550px) {
+    .menu{
+        position: absolute;
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        right: 0;
+        top: -400px;
+        background: #be7e83;
+        color: #fff;
+        padding: 20px;
+        
+    }
+    .dash__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .get__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+          text-align: center;
+    }
+    .get__img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .get__text p{
+        width: 100%;
+        padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+    .find__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+          text-align: center;
+          padding: 20px;
+    }
+
+    .find__img img{
+        width: 250px;
+        height: 250px;
+    }
+.find__img p{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.find__img h1{
+    padding-top: 20px;
+}
+
+.icon{
+    display: block;
+    color: yellow;
+    align-items: left;
+    justify-content: start;
+}
+.footer__wrapper{
+    display: flex;
+}
+
+.footer__sub{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+    
+}
