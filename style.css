@@ -16,6 +16,37 @@
 }
 
 
+.find{
+    background: #be7e83;
+    width: 100%;
+}
+
+.find__wrapper{
+    justify-content: space-between;
+
+}
+.get__img{
+    width: 50%;
+}
+
+.get__text{
+    width: 50%;
+    padding-left: 250px;
+}
+
+
+.find__img{
+    width: 50%;
+}
+
+.find__text{
+    width: 50%;
+    padding-left: 250px;
+}
+
+
+
+
 .icon{
     display: none;
     align-items: left;
@@ -43,13 +74,24 @@
         display: flex;
         flex-direction: column;
     }
+
     .get__wrapper{
         display: flex;
         flex-direction: column;
         align-items: center;
           text-align: center;
+          width: 100%;
     }
     .get__img{
+        width: 100%;
+    }
+    
+    .get__text{
+        width: 100%;
+        padding-left: 250px;
+    }
+    
+    .get__img  img{
         width: 250px;
         height: 250px;
     }
@@ -66,25 +108,34 @@
         align-items: center;
           text-align: center;
           padding: 20px;
+          width: 100%;
+    }
+
+    .find__text{
+        padding: 0;
+        width: 100%;
     }
 
     .find__img img{
         width: 250px;
         height: 250px;
     }
-.find__img p{
+
+.find__text p{
     width: 100%;
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
-.find__img h1{
+.find__text h1{
     padding-top: 20px;
 }
 
+
+
 .icon{
     display: block;
-    color: yellow;
+    color: white;
     align-items: left;
     justify-content: start;
 }
